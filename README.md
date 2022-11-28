@@ -24,9 +24,9 @@ N/A
 
 ## Usage
 
-To see the updated website, please go to: https://matt-jones-developer.github.io/Horiseon_code_factoring/
+To see the updated website, please go to: https://matt-jones-developer.github.io/Horiseon_code_refactoring/
 
-To view the repository follow this link: https://github.com/Matt-Jones-Developer/Horiseon_code_factoring
+To view the repository follow this link: https://github.com/Matt-Jones-Developer/Horiseon_code_refactoring
 
 ```md
 ![alt text](assets/images/screenshot.png)
