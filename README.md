@@ -1,29 +1,35 @@
-# 01 HTML CSS Git: Code Refactor
+# 01 HTML CSS Git: Code Refactoring for Horiseon Inc.
 
-## Your Task
+## Description
 
-**Note**: Be sure to review the [Challenge Guide](./Challenge-Guide.md) and the [Good README Guide](./Good-README-Guide.md) before you start working on this assignment!
+This repository serves as a code refactoring example for marketing agency, Horiseon Inc.
+Accessibility is extremely important so I wanted to make sure I was taking the companies existing code, improving it (refactoring), cleaning it up (Scout Rule) and making sure it was more legible and understandable for anyone within the company to see.
 
-This week your challenge is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's challenge involves a very important aspect of web development: **accessibility**. 
+The criteria for this project are listed within the Acceptance Criteria section of this readme guide. A full list of changes can be found in the 'Commits' section.
 
-One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this challenge, a marketing agency has hired you to refactor an existing site to make it more accessible. 
+## Table of Contents
 
-Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
-
-Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
-
-**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Acceptance-Criteria](#acceptance-criteria)
+* [Commits](#commits)
+* [Credits](#credits)
+* [License](#license)
 
 To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-Are you ready to jump in? Here are this week's challenge requirements:
+## Installation
 
-### User Story
+N/A
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our own site is optimized for search engines
+## Usage
+
+To see the updated website, please go to: https://matt-jones-developer.github.io/Horiseon_code_factoring/
+
+To view the repository follow this link: https://github.com/Matt-Jones-Developer/Horiseon_code_factoring
+
+```md
+![alt text](assets/images/screenshot.png)
 ```
 
 ### Acceptance Criteria
