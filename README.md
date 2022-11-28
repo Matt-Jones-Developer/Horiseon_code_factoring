@@ -44,7 +44,7 @@ The website must meet accessibility standards. I have achieved this by completin
 
 ## Commits
 
-I have learnt from this project to make more detailed commit comments as mine were too vague.  I will list the actual changes here in more detail and improve this next time.
+I have learnt from this project to make more detailed commit comments as mine were too vague.  I will list the actual changes here in more detail and improve on this next time.
 
 1. Initial repo created and cloned 
 2. Initial refactoring - changed title, added header and nav semantics
