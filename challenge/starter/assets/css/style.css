@@ -30,7 +30,12 @@ h3 {
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 
+                    'Lucida Sans Unicode', 
+                    'Lucida Grande', 
+                    'Lucida Sans', 
+                    Arial, 
+                    sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -45,12 +50,12 @@ h3 {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 
+                    'Gill Sans MT', 
+                    Calibri, 
+                    'Trebuchet MS', 
+                    sans-serif;
     font-size: 20px;
-}
-
-.navbar ul {
-    list-style-type: none;
 }
 
 .navbar ul li {
@@ -62,7 +67,8 @@ h3 {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url(
+        "../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -71,15 +77,18 @@ h3 {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+.content-detail {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 
+                    'Gill Sans MT', 
+                    'Calibri', 
+                    'Trebuchet MS', 
+                    sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -105,7 +114,11 @@ h3 {
     float: right;
     width: 21%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 
+                    'Gill Sans MT', 
+                    'Calibri', 
+                    'Trebuchet MS', 
+                    sans-serif;
     background-color: #2589bd;
     /* optional; but I prefer it */
     text-align: center;
