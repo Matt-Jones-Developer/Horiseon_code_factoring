@@ -29,7 +29,7 @@ To see the updated website, please go to: https://matt-jones-developer.github.io
 To view the repository follow this link: https://github.com/Matt-Jones-Developer/Horiseon_code_refactoring
 
 
-![This is a screenshot](https://matt-jones-developer.github.io/Horiseon_code_refactoring/assets/images/screenshot.png)
+![This is a screenshot](/assets/images/screenshot.png)
 
 ## Acceptance Criteria
 
