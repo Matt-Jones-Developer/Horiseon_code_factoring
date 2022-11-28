@@ -5,7 +5,7 @@
 This repository serves as a code refactoring example for marketing agency, Horiseon Inc.
 Accessibility is extremely important so I wanted to make sure I was taking the companies existing code, improving it (refactoring), cleaning it up (Scout Rule) and making sure it was more legible and understandable for anyone within the company to see.
 
-The criteria for this project are listed within the Acceptance Criteria section of this readme guide. A full list of changes can be found in the 'Commits' section.
+The criteria for this project are listed within the Acceptance Criteria section of this readme guide. A full list of changes can be found in the 'Commits' section. In future I will always write detailed commit comments.
 
 ## Table of Contents
 
@@ -15,12 +15,12 @@ The criteria for this project are listed within the Acceptance Criteria section 
 * [Commits](#commits)
 * [Credits](#credits)
 * [License](#license)
-
-To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+* [Badges](#badges)
 
 ## Installation
 
 N/A
+
 
 ## Usage
 
@@ -32,9 +32,9 @@ To view the repository follow this link: https://github.com/Matt-Jones-Developer
 ![alt text](assets/images/screenshot.png)
 ```
 
-### Acceptance Criteria
+## Acceptance Criteria
 
-Your website must meet accessibility standards. You can achieve this completing the following:
+The website must meet accessibility standards. I have achieved this by completing the following:
 
 * Semantic HTML elements can be found throughout the source code
 * HTML elements follow a logical structure independent of styling and positioning
@@ -42,86 +42,53 @@ Your website must meet accessibility standards. You can achieve this completing 
 * Heading attributes fall in sequential order
 * Title elements contain a concise, descriptive title
 
-### Resources:
+## Commits
 
-* [Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
-* [Image `alt` attributes](https://www.w3schools.com/tags/att_img_alt.asp)
+I have learnt from this project to make more detailed commit comments as mine were too vague.  I will list the actual changes here in more detail and improve this next time.
 
-### Mock-Up
+1. Initial repo created and cloned 
+2. Initial refactoring - changed title, added header and nav semantics
+3. Added more semantic elements, including main and sections and footer and declared class names.
+4. Switched the footer H2 tag to an H3 and corrected the text-sizing
+5. Changed content section div classes to id's to allow for working links
+6. Added alt tags for the remaining images 
+7. Grouped the ids for the left boxes into one group
+8. Removed navbar ul as it wasn't required, consolidated unnecessary CSS selectors 
+9. Merged the renamed 'benefits' classes together 
+10. Added additional meta tags, 'http-equiv' and 'name'
+11. Changed the class names for 'right side panel' to 'benefits' and 'benefits-info'
+12. Added comments to both the CSS and the HTML documents for improved readability
+13. Improved the repo title, added a screenshot image for the readme
+14. Added a professional readme document
 
-The following image shows the web application's appearance and functionality:
+## Credits
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](Assets/01-html-css-git-challenge-demo.png)
+Refactored and cleaned by Matt Jones on behalf of Horiseon Inc. © 2022
 
-> **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+## License 
 
-### Getting Started
+MIT License
 
-Follow these instructions to create your project and deploy it to GitHub Pages:
+Copyright (c) [2022] [Matt Jones]
 
-1. Create a new repository on your GitHub account and clone it to your computer.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-2. When you're ready to deploy, use the `git add`, `git commit`, and `git push` commands to save and push your code to your GitHub repository.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-3. Navigate to your GitHub repository in the browser and then select the Settings tab on the right side of the page.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-4. On the Settings page, scroll down to the GitHub Pages section. Then, in the section labeled Source, select the `main` branch as your source.
+## Badges
 
-5. Navigate to <your-github-username.github.io/your-repository-name> and you will find that your new webpage has gone live! For example, if your GitHub username is "lernantino" and the project is "css-demo-site", then your URL would be <lernantino.github.io/css-demo-site>.
-
-You can also refer to this [YouTube video on enabling GitHub Pages](https://youtu.be/P4Mu1t5rIXg) for more guidance.
-
-> **Important**: It might take a few minutes for GitHub pages to display your site correctly. If your project does not deploy or display correctly, check that all file paths in your application are relative and use the right casing. GitHub is case-sensitive, an inccorect capital or lowercase letter could cause problems in deployment.
-
-Be sure to add, commit, and push your work to see the most up-to-date version of your app!
-
-### Requirements
-
-This challenge is assessed on the following criteria: 
-
-#### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
-#### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-#### Application Quality: 15%
-
-* Application resembles (at least 90%) screenshots provided in the challenge instructions.
-
-#### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-### Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+/w3c-validation/:parser?preset=HTML%2C%20SVG%201.1%2C%20MathML%203.0&targetUrl=https%3A%2F%2Fvalidator.nu%2F
