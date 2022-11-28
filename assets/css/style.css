@@ -6,9 +6,12 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #d9dcd6;
-    scroll-behavior: smooth;
 }
 
 a {
